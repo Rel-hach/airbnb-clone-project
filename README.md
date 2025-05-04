@@ -1,49 +1,158 @@
-# airbnb-clone-project
+🏡 Full-Stack AirBnB Clone
+Overview
 
-Airbnb Clone - Project Overview
-🚀 Project Goals
+This project replicates the functionality of the well-known accommodation platform AirBnB using a full-stack architecture. The application allows users to explore listings, view detailed property pages, and complete booking transactions. It covers the complete development cycle — from frontend design and backend API integration to database structuring and deployment.
 
-This project is a full-stack Airbnb clone built with modern web technologies to replicate core functionalities of the Airbnb platform, including:
+🎯 Objectives
 
-    Property listings with search & filtering
+By completing this project, you’ll gain hands-on experience in:
 
-    User authentication (sign-up/login)
+    Building responsive and accessible user interfaces
 
-    Property booking & reservation management
+    Structuring scalable, full-stack web applications
 
-    Interactive UI with responsive design
+    Collaborating effectively within a multi-role development team
 
-    Hosting property listings (for hosts)
+    Developing reusable frontend components
 
-    💻 Tech Stack
+    Applying best practices in software engineering and agile workflows
 
-    Frontend:
+🛠 Tech Stack
 
-        React.js (UI components & state management)
+    Frontend: HTML, CSS, JavaScript (React or comparable framework)
 
-        Next.js (Server-side rendering, routing, and API routes)
+    Version Control: Git & GitHub
 
-        Tailwind CSS (Styling & responsive design)
+    Design: Figma (for prototyping and UI specifications)
 
+🚧 Project Setup & Requirements
+📁 Initialization
 
-    Backend:
+    Establish a GitHub repository with clear documentation
 
-    PHP (Custom REST API for business logic)
+    Provide a comprehensive README outlining project scope and goals
 
-    MySQL (Database for listings, users, bookings)
+🎨 UI/UX Design Phase
 
-    Laravel/Slim PHP (Optional framework for structured backend)
+    Define visual and functional goals
 
+    Break down each primary view with feature descriptions
 
-    Authentication:
+    Reference and analyze Figma design files
 
-    JWT (JSON Web Tokens)
+    Select consistent color palettes and typography standards
 
+🧑‍🤝‍🧑 Team Collaboration
 
-    🌟 Key Features
+    Assign clear roles and responsibilities within the team
 
-    ✔️ Dynamic property search & filtering
-    ✔️ User auth (Google, GitHub, or email/password)
-    ✔️ Property booking system with date selection
-    ✔️ Host dashboard to manage listings
-    ✔️ Responsive mobile-friendly UI
+    Document each member’s scope of work
+
+🧩 Component Architecture
+
+    Design a library of modular and reusable UI components
+
+    Plan for consistent usage across the application
+
+✅ Development Guidelines
+
+    Code Structure: Modular, well-organized file system
+
+    Version Control Workflow: Feature branches, PRs, meaningful commit messages
+
+    Mobile-First Design: Prioritize responsiveness from the ground up
+
+    Accessibility: WCAG-compliant designs
+
+    Documentation: Keep code and project documentation current
+
+    Testing: Integrate unit and integration testing
+
+🖌️ Design Specifications
+🧭 Goals
+
+    Simplify booking process
+
+    Ensure consistent design across pages
+
+    Optimize performance and load time
+
+    Provide an intuitive mobile experience
+
+🔑 Core Features
+
+    Property search with advanced filtering
+
+    Detailed listing pages with full image galleries
+
+    Secure booking and checkout system
+
+    User login and registration functionality
+
+📄 Main Views
+Page	Description
+Property Listings	Grid view of all available rentals with filtering/sorting options
+Listing Detail View	Full property information, image gallery, and booking form
+Checkout View	Secure, simple payment and booking confirmation interface
+🎨 Design Tokens (from Figma)
+🎨 Color Palette
+
+    Primary: #FF5A5F
+
+    Accent: #008489
+
+    Background: #FFFFFF
+
+    Main Text: #222222
+
+    Secondary Text: #717171
+
+✍️ Typography
+
+    Primary Font: Circular, 16px, Medium (500)
+
+    Headings: Circular, Bold (24px–32px)
+
+    Body Text: Circular, Book (14px)
+
+👥 Team Structure
+Role	Responsibilities
+Project Manager	Coordinates team deliverables, monitors timeline, and manages priorities
+Frontend Devs	Develop reusable components, ensure UI/UX quality and responsiveness
+Backend Devs	Develop RESTful APIs, manage data models, handle authentication/authorization
+Designers	Create visual assets and maintain Figma design system
+QA/Testers	Write test cases, identify bugs, and validate features before releases
+DevOps Engineers	Set up deployment environments, CI/CD workflows, and production infrastructure
+Product Owner	Defines MVP scope, writes user stories, gathers stakeholder feedback
+Scrum Master	Facilitates agile ceremonies, removes blockers, supports team collaboration
+🧱 UI Components
+🔧 Planned Elements
+
+    Navbar
+
+        Brand logo
+
+        Search input
+
+        User menu/navigation
+
+        Mobile-responsive menu system
+
+    Property Card
+
+        Thumbnail image
+
+        Key details (price, location, rating)
+
+        Favorite/like button
+
+        Adaptive layout
+
+    Footer
+
+        Navigation links
+
+        Contact and legal information
+
+        Social media links
+
