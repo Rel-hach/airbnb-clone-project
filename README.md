@@ -120,7 +120,7 @@ Typography
 
         Subtext: 14px, Book (400)
 
-👥 Team Roles
+👥 Project Roles and Responsibilities
 Role	Key Responsibilities
 Project Manager	Manages timeline, syncs team progress, handles documentation
 Frontend Devs	Implement UI, manage component architecture, ensure cross-device UX
