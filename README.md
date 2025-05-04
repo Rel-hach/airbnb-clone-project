@@ -1,158 +1,132 @@
 🏡 Full-Stack AirBnB Clone
-Overview
+📌 Project Overview
 
-This project replicates the functionality of the well-known accommodation platform AirBnB using a full-stack architecture. The application allows users to explore listings, view detailed property pages, and complete booking transactions. It covers the complete development cycle — from frontend design and backend API integration to database structuring and deployment.
+This repository contains a full-stack clone of the AirBnB platform. It simulates a real-world booking system where users can explore rental properties, view detailed listings, and complete bookings. The app encompasses the full development pipeline — including UI design, backend logic, database architecture, and deployment.
+🎯 Learning Objectives
 
-🎯 Objectives
+Through this project, participants will:
 
-By completing this project, you’ll gain hands-on experience in:
+    Design and implement responsive, user-friendly interfaces
 
-    Building responsive and accessible user interfaces
+    Architect and structure a scalable full-stack web app
 
-    Structuring scalable, full-stack web applications
+    Collaborate using Git workflows and agile roles
 
-    Collaborating effectively within a multi-role development team
+    Build modular frontend components
 
-    Developing reusable frontend components
-
-    Applying best practices in software engineering and agile workflows
+    Apply industry best practices across the development lifecycle
 
 🛠 Tech Stack
 
-    Frontend: HTML, CSS, JavaScript (React or comparable framework)
+    Frontend: HTML, CSS, JavaScript (React or similar)
 
     Version Control: Git & GitHub
 
-    Design: Figma (for prototyping and UI specifications)
+    Design Tools: Figma (for UI/UX wireframes and design specs)
 
-🚧 Project Setup & Requirements
-📁 Initialization
+🚀 Project Requirements
+🧰 Setup & Initialization
 
-    Establish a GitHub repository with clear documentation
+    Initialize a GitHub repository with clear structure
 
-    Provide a comprehensive README outlining project scope and goals
+    Provide a comprehensive README.md (this file)
 
-🎨 UI/UX Design Phase
+    Set up a starter project structure with appropriate tooling
 
-    Define visual and functional goals
+🎨 UI/UX Design Planning
 
-    Break down each primary view with feature descriptions
+    Define visual goals and layout structure
 
-    Reference and analyze Figma design files
+    Break down each main screen into user flows
 
-    Select consistent color palettes and typography standards
+    Incorporate Figma specs and design tokens
 
-🧑‍🤝‍🧑 Team Collaboration
+    Choose consistent fonts and color themes
 
-    Assign clear roles and responsibilities within the team
+👥 Roles & Responsibilities
 
-    Document each member’s scope of work
+    Clearly assign and document each team member's role
 
-🧩 Component Architecture
+    Align contributions with individual skill sets and ownership areas
 
-    Design a library of modular and reusable UI components
+🧩 UI Component Patterns
 
-    Plan for consistent usage across the application
+Reusable UI components form the building blocks of the application. These components are designed for consistency, scalability, and responsiveness.
+🔧 Core Components
+Component	Description
+Navbar	Contains logo, search functionality, user menu, and collapsible mobile nav
+PropertyCard	Displays image, location, price, and favorite button in a responsive layout
+Footer	Includes links, social media icons, copyright, and contact details
+SearchBar	Embedded input with filtering options and live suggestions
+BookingForm	Allows users to select dates, guests, and complete reservation flow
+UserMenu	Dropdown for login/signup or profile/account actions
 
-✅ Development Guidelines
+Each component is:
 
-    Code Structure: Modular, well-organized file system
+    Modular – Designed for reuse across multiple views
 
-    Version Control Workflow: Feature branches, PRs, meaningful commit messages
+    Responsive – Mobile-friendly by default
 
-    Mobile-First Design: Prioritize responsiveness from the ground up
+    Accessible – Built following WCAG standards
 
-    Accessibility: WCAG-compliant designs
+    Theme-consistent – Uses shared styles and tokens
 
-    Documentation: Keep code and project documentation current
+💡 Design Principles
+🎯 Goals
 
-    Testing: Integrate unit and integration testing
+    Streamlined and intuitive booking experience
 
-🖌️ Design Specifications
-🧭 Goals
+    Design consistency and visual clarity
 
-    Simplify booking process
+    Optimized performance across devices
 
-    Ensure consistent design across pages
+    High responsiveness for mobile and tablet users
 
-    Optimize performance and load time
+🧩 Key Features
 
-    Provide an intuitive mobile experience
+    Property exploration with robust search and filtering
 
-🔑 Core Features
+    Full listing pages with image carousel and host info
 
-    Property search with advanced filtering
+    Secure checkout flow with reservation confirmation
 
-    Detailed listing pages with full image galleries
+    User registration, login, and account management
 
-    Secure booking and checkout system
-
-    User login and registration functionality
-
-📄 Main Views
+📄 Page Structure
 Page	Description
-Property Listings	Grid view of all available rentals with filtering/sorting options
-Listing Detail View	Full property information, image gallery, and booking form
-Checkout View	Secure, simple payment and booking confirmation interface
-🎨 Design Tokens (from Figma)
-🎨 Color Palette
+Listings View	Grid layout of properties with filters and search bar
+Property Detail	Full information including photos, amenities, and booking form
+Checkout Page	Final step to confirm and pay for the booking
+🎨 Design System (Figma)
+Color Palette
 
-    Primary: #FF5A5F
+    Primary Color: #FF5A5F
 
-    Accent: #008489
+    Accent Color: #008489
 
     Background: #FFFFFF
 
-    Main Text: #222222
+    Text (Primary): #222222
 
-    Secondary Text: #717171
+    Text (Secondary): #717171
 
-✍️ Typography
+Typography
 
-    Primary Font: Circular, 16px, Medium (500)
+    Primary Font: Circular
 
-    Headings: Circular, Bold (24px–32px)
+        Body Text: 16px, Medium (500)
 
-    Body Text: Circular, Book (14px)
+        Headings: 24px–32px, Bold (700)
 
-👥 Team Structure
-Role	Responsibilities
-Project Manager	Coordinates team deliverables, monitors timeline, and manages priorities
-Frontend Devs	Develop reusable components, ensure UI/UX quality and responsiveness
-Backend Devs	Develop RESTful APIs, manage data models, handle authentication/authorization
-Designers	Create visual assets and maintain Figma design system
-QA/Testers	Write test cases, identify bugs, and validate features before releases
-DevOps Engineers	Set up deployment environments, CI/CD workflows, and production infrastructure
-Product Owner	Defines MVP scope, writes user stories, gathers stakeholder feedback
-Scrum Master	Facilitates agile ceremonies, removes blockers, supports team collaboration
-🧱 UI Components
-🔧 Planned Elements
+        Subtext: 14px, Book (400)
 
-    Navbar
-
-        Brand logo
-
-        Search input
-
-        User menu/navigation
-
-        Mobile-responsive menu system
-
-    Property Card
-
-        Thumbnail image
-
-        Key details (price, location, rating)
-
-        Favorite/like button
-
-        Adaptive layout
-
-    Footer
-
-        Navigation links
-
-        Contact and legal information
-
-        Social media links
-
+👥 Team Roles
+Role	Key Responsibilities
+Project Manager	Manages timeline, syncs team progress, handles documentation
+Frontend Devs	Implement UI, manage component architecture, ensure cross-device UX
+Backend Devs	Build APIs, handle authentication, manage business logic
+Designers	Create wireframes, manage Figma assets, define UI/UX standards
+QA/Testers	Conduct tests, report bugs, ensure overall quality assurance
+DevOps Engineers	Configure CI/CD pipelines, deploy applications, manage environments
+Product Owner	Define features, prioritize backlog, act as voice of the customer
+Scrum Master	Facilitate standups, remove blockers, ensure agile delivery
